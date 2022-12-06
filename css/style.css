@@ -1,3 +1,8 @@
+:root{
+    --preto: rgb(37,37,37);
+    
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -6,6 +11,6 @@ body {
     display: grid;
     grid-template-areas: "content";
     font-family: 'Ubuntu', sans-serif;
-    background-color: darkgray;
+    background: var(--preto)
 }
 
